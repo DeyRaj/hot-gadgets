@@ -21,7 +21,7 @@ ul li{
 }
 .carousel-indicators li{
     height: 8px;
-    background-color: #ffc81e;
+    background-image: linear-gradient(to left, #ffbf00 0%, #ff8000 100%);
 }
 .btn-buy-now{
     margin-top: 5px;;
@@ -138,9 +138,7 @@ ul li{
     width: 500px;
 }
 .footer{
-    margin-top: 50px;
-    background: orange;
-    height: 100px;
+    background-image: linear-gradient(to right,  #cdf5f5 0%,  #f7fbfb 100%);
     opacity: .9;
 }
 .footer ul{
@@ -188,19 +186,66 @@ h3.placing{
     margin-top: 20px;
     position: relative;
     left: 30%;
-    color: #fff;
+    color: black;
 
 }
 .btn-see-more{
     border:none;
     height: 40px;
-    width: 80px;
+    width: 100px;
     border-radius: 5px;
-    background-color: orange;
+    background-image: linear-gradient(to left, #ffbf00 0%, #ff8000 100%);
     color:#fff;
     position: absolute;
     right: 200px;
 }
 .spacing1{
     margin-top: 40px;
+}
+
+.last-bottom{
+    margin-top: 30px;
+    background-image: linear-gradient(to left,  #6a4af0  0%,  #1b1046  100%);
+    height: 400px;
+}
+.last-bottom ul{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.last-bottom ul.spacing{
+    margin-top: 40%;
+}
+.last-bottom ul li a {
+    text-decoration: none;
+}
+.last-bottom ul li a:hover,
+.last-bottom ul li a:visited{
+    color: blue;
+}
+.last-bottom ul li a h1{
+    font-size: 24px;
+    color: #fff;
+}
+.last-bottom ul li a h2{
+    font-size: 18px;
+    color: #fff;
+}
+.footer-image{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 40%;
+    left: 40%;
+}
+.footer-logo-hot{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 13%;
+    left: 60%;
+}
+#available{
+    color: blanchedalmond;
+    position: relative;
+    left: 5px;
 }
