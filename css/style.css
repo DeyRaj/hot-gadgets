@@ -256,3 +256,6 @@ h3.placing{
     position: relative;
     left: 5px;
 }
+.bg-orange:hover{
+            color: chocolate;
+}
