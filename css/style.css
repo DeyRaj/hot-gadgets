@@ -265,7 +265,7 @@ h3.placing{
 }
 .footer-image2{
     position: relative;
-    top: 5px;
+    top: -5px;
     height: 80px;
     width: 100px;
 }
