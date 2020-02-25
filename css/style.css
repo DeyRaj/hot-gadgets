@@ -85,6 +85,13 @@ ul li{
     height: 300px;
     width: 300px;
 }
+.card-image-top4{
+    position: relative;
+    left: -10px;
+    height: 400px;
+    width: 500px;
+    top: -85px;
+}
 
 .phone{
     margin-top: 50px;
